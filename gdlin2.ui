@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>683</width>
+    <height>913</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Guidelines</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/Logo/QT designer assets/logo-ibti SVG.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">font: 75 32pt &quot;Segoe UI&quot;;
+font-wheight: Bold</string>
+      </property>
+      <property name="text">
+       <string>Guidelines</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="Line" name="line_2">
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>90</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Graphical Interface for the Visualization and Reconstruction of Tomographic Images</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QTreeWidget" name="treeWidget">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="uniformRowHeights">
+       <bool>false</bool>
+      </property>
+      <property name="sortingEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="animated">
+       <bool>false</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="headerHidden">
+       <bool>true</bool>
+      </property>
+      <column>
+       <property name="text">
+        <string/>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>CT Visualizer</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>Funcionalidade: Esta tela é dedicada à visualização avançada e à reconstrução de imagens médicas, com várias opções de personalização e ajustes de qualidade de
+imagem.
+ 
+Uso: A interface oferece um visualizador de imagens com opções para ocultar menus desnecessários.
+Inclui botões para abrir imagens, aplicar diferentes colormaps (Gray, Viridis, Plasma, Temperature), e acessar arquivos recentes. Há recursos para exibir e ajustar informações da imagem, como valores mínimos, máximos, média, desvio padrão, soma, foco, kV, e mAs.
+A seção de qualidade de imagem permite desenhar regiões de interesse (ROI) e calcular a razão sinal-ruído (SNR) e a razão contraste-ruído (CNR).
+A tela também oferece opções de visualização tomográfica (Axial, Coronal, Sagital) e filtros para redução de ruído e melhoria de nitidez.
+Além disso, há funcionalidades para realizar reconstruções de imagens via CPU ou GPU,com parâmetros ajustáveis como Dim X, Dim Y, tamanho do pixel e número de fatias. Botões adicionais incluem opções para limpar a visualização, rotacionar a imagem, abrir histogramas e aplicar correções de campo plano.
+
+
+
+
+
+
+
+
+
+
+</string>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>Data Server</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>Funcionalidade: Permite ao usuário acesso ao SQL Data Server do sistema.
+
+Uso: com acesso as credenciais do servidor SQL, preencha os campos de Host, User, Password e Database para acessar o servidor.
+Use: Execute Table para execultar uma tabela do servidor e Download CSV para realizar um download da tabela do servidor.
+
+
+</string>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>Send Commands</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string notr="true">Funcionalidade: Permite o envio de comandos específicos para o sistema.
+
+Uso: Insira os valores necessários nos campos fornecidos e use os botões para enviar
+comandos como &quot;Exposures&quot;, &quot;Start CT&quot;, &quot;Origin&quot;, etc. As descrições dos comandos estão 
+disponíveis clicando no ícone de interrogação (?) ao lado de cada comando.
+
+</string>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>Basic Settings</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>Funcionalidade: Proporciona uma interface para ajustar configurações básicas do sistema.
+
+Uso: Ajuste parâmetros básicos como exposições, oversample, altura do scan, entre outros. Utilize os botões para salvar, carregar ou limpar configurações.
+
+
+</string>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>Advanced Settings</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>Funcionalidade: Permite ao usuário ajustar parâmetros avançados do sistema.
+
+Uso: Modifique as configurações como necessário. Clique em &quot;Send Parameters&quot; para aplicar as mudanças. 
+Use &quot;Download JSON&quot; para salvar as configurações e &quot;Upload JSON&quot; para carregar  configurações previamente salvas.
+
+
+</string>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+       </item>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>683</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

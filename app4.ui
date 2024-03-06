@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1344</width>
+    <height>878</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>1131</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/Logo/QT designer assets/Logo-IBTI-resised.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_detector">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>90</y>
+      <width>450</width>
+      <height>270</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(244, 244, 244);
+border-radius: 10px;
+border: 1px solid #ACACAC;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="spacing">
+      <number>8</number>
+     </property>
+     <property name="topMargin">
+      <number>16</number>
+     </property>
+     <property name="rightMargin">
+      <number>16</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_detector">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>82</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">Border: None
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/Logo/QT designer assets/tomograph 1.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_detector">
+       <property name="styleSheet">
+        <string notr="true">display: flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+font: 12pt &quot;Segoe UI&quot;;
+
+border-radius: 8px;
+background: #FFB62D;</string>
+       </property>
+       <property name="text">
+        <string>Status</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_command">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>410</y>
+      <width>271</width>
+      <height>187</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(244, 244, 244);
+border-radius: 10px;
+border: 1px solid #ACACAC;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_7">
+     <property name="spacing">
+      <number>8</number>
+     </property>
+     <property name="topMargin">
+      <number>16</number>
+     </property>
+     <property name="rightMargin">
+      <number>16</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_command">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>82</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">Border: None
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/Logo/QT designer assets/send.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_command">
+       <property name="styleSheet">
+        <string notr="true">display: flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+font: 12pt &quot;Segoe UI&quot;;
+
+border-radius: 8px;
+background: #FFB62D;</string>
+       </property>
+       <property name="text">
+        <string>CT Controler</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="Basic_Settings_Button_3">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>710</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">display: flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+font: 9pt &quot;Segoe UI&quot;;
+
+border-radius: 8px;
+background: #f6d57c;</string>
+    </property>
+    <property name="text">
+     <string>Guidelines</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Basic_Settings_Button_2">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>763</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">display: flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+font: 9pt &quot;Segoe UI&quot;;
+
+border-radius: 8px;
+background: #f6d57c;</string>
+    </property>
+    <property name="text">
+     <string>Version Info</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_user">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>723</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>64</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">display: flex;
+color: rgb(255, 255, 255);
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+font: 16pt &quot;Segoe UI&quot;;
+
+border-radius: 8px;
+background: #B0BF1A</string>
+    </property>
+    <property name="text">
+     <string>Change user</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>680</y>
+      <width>141</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/Logo/QT designer assets/user.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_image">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>90</y>
+      <width>450</width>
+      <height>270</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(244, 244, 244);
+border-radius: 10px;
+border: 1px solid #ACACAC;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <property name="spacing">
+      <number>8</number>
+     </property>
+     <property name="topMargin">
+      <number>16</number>
+     </property>
+     <property name="rightMargin">
+      <number>16</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_visualizer">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>82</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">Border: None
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/Logo/QT designer assets/tomograph 1.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_visualizer">
+       <property name="styleSheet">
+        <string notr="true">display: flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+font: 12pt &quot;Segoe UI&quot;;
+
+border-radius: 8px;
+background: #FFB62D;</string>
+       </property>
+       <property name="text">
+        <string>Image Analizer</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_basic">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>410</y>
+      <width>271</width>
+      <height>187</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(244, 244, 244);
+border-radius: 10px;
+border: 1px solid #ACACAC;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_8">
+     <property name="spacing">
+      <number>8</number>
+     </property>
+     <property name="topMargin">
+      <number>16</number>
+     </property>
+     <property name="rightMargin">
+      <number>16</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_basic">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>82</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">Border: None
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/Logo/QT designer assets/send.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_basic">
+       <property name="styleSheet">
+        <string notr="true">display: flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+font: 12pt &quot;Segoe UI&quot;;
+
+border-radius: 8px;
+background: #FFB62D;</string>
+       </property>
+       <property name="text">
+        <string>Basic Settings</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_advance">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>410</y>
+      <width>271</width>
+      <height>187</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(244, 244, 244);
+border-radius: 10px;
+border: 1px solid #ACACAC;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_9">
+     <property name="spacing">
+      <number>8</number>
+     </property>
+     <property name="topMargin">
+      <number>16</number>
+     </property>
+     <property name="rightMargin">
+      <number>16</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_advance">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>82</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">Border: None
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/Logo/QT designer assets/send.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_advance">
+       <property name="styleSheet">
+        <string notr="true">display: flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+font: 12pt &quot;Segoe UI&quot;;
+
+border-radius: 8px;
+background: #FFB62D;</string>
+       </property>
+       <property name="text">
+        <string>Advance Settings</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_server">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>410</y>
+      <width>271</width>
+      <height>187</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(244, 244, 244);
+border-radius: 10px;
+border: 1px solid #ACACAC;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_10">
+     <property name="spacing">
+      <number>8</number>
+     </property>
+     <property name="topMargin">
+      <number>16</number>
+     </property>
+     <property name="rightMargin">
+      <number>16</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_server">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>82</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">Border: None
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/Logo/QT designer assets/send.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_server">
+       <property name="styleSheet">
+        <string notr="true">display: flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+font: 12pt &quot;Segoe UI&quot;;
+
+border-radius: 8px;
+background: #FFB62D;</string>
+       </property>
+       <property name="text">
+        <string>Data Controler</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
